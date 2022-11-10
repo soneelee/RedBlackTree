@@ -27,10 +27,6 @@ node_t *rbtree_min(const rbtree *);
 node_t *rbtree_max(const rbtree *);
 int rbtree_erase(rbtree *, node_t *);
 
-// node_t *tree_minimum(rbtree *t, node_t* x);
-// void rbtree_display(rbtree *t, node_t *node);
-// void rbtree_insert_fixup(rbtree *t, node_t *z);
-// void rbtree_erase_fixup(rbtree* t, node_t *x);
 int rbtree_to_array(const rbtree *, key_t *, const size_t);
 
 #endif  // _RBTREE_H_
